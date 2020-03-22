@@ -1,0 +1,37 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Lato|Source+Sans+Pro&amp;display=swap">
+</head>
+
+<body>
+    <div class="filter"></div>
+    <div class="container">
+      <div class="timer">
+        <div class="select-time">
+          <input type="text" class="input-time" placeholder="25"/>
+          分鐘
+        </div>
+        <div class="left-time">
+    <!--       03:22 -->
+        </div>
+      </div>
+      <div class="d-none" id="progressBar">
+        <div class="bar" id="progressDiv"></div>
+      </div>
+    
+      <button class="btn start-button">Start</button>
+      <button class="btn pause-button d-none">Pause</button>
+      <button class="btn shortcut-button">5 mins</button>
+      <button class="btn stop-button d-none">Reset</button>
+    
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</body>
+
+
